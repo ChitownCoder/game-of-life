@@ -40,15 +40,17 @@ class Buttons extends React.Component {
           <Button variant="outline-light" size="sm" onClick={this.props.seed}>
             Random
           </Button>
-          <DropdownButton
+         
+          <DropdownButton 
+            
             variant="outline-light"
             size="sm"
             title="Grid Size"
-            id="size-menu"
+            id=" dropdown-basic-button"
             onSelect={this.handleSelect}
           >
-            <DropdownItem>50x35</DropdownItem>
-            <DropdownItem eventKey="1">75x50</DropdownItem>
+            <DropdownItem>50x50</DropdownItem>
+            <DropdownItem eventKey="1">75x75</DropdownItem>
           </DropdownButton>
         </ButtonToolbar>
       </div>

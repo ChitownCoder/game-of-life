@@ -83,11 +83,11 @@ class Main extends React.Component {
     switch (size) {
       case "1":
         this.cols = 75;
-        this.rows = 50;
+        this.rows = 75;
         break;
       default:
         this.cols = 50;
-        this.rows = 35;
+        this.rows = 50;
     }
     this.clear();
   };
@@ -97,7 +97,7 @@ class Main extends React.Component {
     let g2 = arrayClone(this.state.gridFull);
 
     for (let i = 0; i < this.rows; i++) {
-      // CELL COUNT, CHECKS CELLS, AND WILL UPDATE COUNTS, ALSO IS CELL ALIVE OR DEAD
+      // CELL COUNT, CHECKS CELLS  WITH NEIGHBORS, AND WILL UPDATE COUNTS, ALSO IS CELL ALIVE OR DEAD
       for (let j = 0; j < this.cols; j++) {
         let count = 0; 
         if (i > 0) if (g[i - 1][j]) count++;
@@ -138,7 +138,8 @@ class Main extends React.Component {
     });
     this.pauseButton();
   };
-
+  
+///////////////////////////////////////
 
   render() {
     return (
