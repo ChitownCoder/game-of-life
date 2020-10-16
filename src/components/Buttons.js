@@ -19,26 +19,26 @@ class Buttons extends React.Component {
             size="sm"
             onClick={this.props.playButton}
           >
-            Play
+            <img src="https://img.icons8.com/doodle/48/000000/youtube-play--v1.png" alt="Play"/>
           </Button>
           <Button
             variant="outline-light"
             size="sm"
             onClick={this.props.pauseButton}
           >
-            Pause
+            <img src="https://img.icons8.com/doodle/48/000000/circled-pause.png" alt="Pause" />
           </Button>
           <Button variant="outline-light" size="sm" onClick={this.props.clear}>
-            Clear
+          <img src="https://img.icons8.com/doodle/48/000000/delete-sign.png" alt="Delete"/>
           </Button>
           <Button variant="outline-light" size="sm" onClick={this.props.slow}>
-            Slow
+          <img src="https://img.icons8.com/color/48/000000/snail.png" alt="Slow"/>
           </Button>
           <Button variant="outline-light" size="sm" onClick={this.props.fast}>
-            Fast
+          <img src="https://img.icons8.com/doodle/48/000000/fast-forward--v3.png" alt="fast"/>
           </Button>
           <Button variant="outline-light" size="sm" onClick={this.props.seed}>
-            Random
+          <img src="https://img.icons8.com/doodle/48/000000/shuffle.png" alt="Random"/>
           </Button>
          
           <DropdownButton 

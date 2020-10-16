@@ -8,14 +8,14 @@ class Presets extends React.Component {
         <h4>Presets</h4>
         <ButtonToolbar>
           <Button variant="outline-light" size="sm" onClick={this.props.glider}>
-            Glider
+          <img src="https://img.icons8.com/color/48/000000/in-air.png" alt="Glider"/>
           </Button>
           <Button
             variant="outline-light"
             size="sm"
             onClick={this.props.pulsar}
           >
-            Pulsar
+            <img src="https://img.icons8.com/color/48/000000/flower-doodle.png" alt="Pulsar"/>
           </Button>
         </ButtonToolbar>
       </div>
