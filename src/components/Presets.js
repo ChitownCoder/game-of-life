@@ -10,6 +10,13 @@ class Presets extends React.Component {
           <Button variant="outline-light" size="sm" onClick={this.props.glider}>
             Glider
           </Button>
+          <Button
+            variant="outline-light"
+            size="sm"
+            onClick={this.props.pulsar}
+          >
+            Pulsar
+          </Button>
         </ButtonToolbar>
       </div>
     );

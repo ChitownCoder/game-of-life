@@ -138,8 +138,89 @@ class Main extends React.Component {
     });
     this.pauseButton();
   };
-  
-///////////////////////////////////////
+
+pulsar = () => {
+  let gridCopy = Array(this.rows)
+  .fill()
+  .map(() => Array(this.cols).fill(0))
+
+    gridCopy[6][20] =1
+    gridCopy[6][21] =1
+    gridCopy[6][22] =1
+    gridCopy[6][26] =1
+    gridCopy[6][27] =1
+    gridCopy[6][28] =1
+    
+    gridCopy[8][18] =1
+    gridCopy[8][23] =1
+    gridCopy[8][25] =1
+    gridCopy[8][30] =1
+
+    gridCopy[9][18] =1
+    gridCopy[9][23] =1
+    gridCopy[9][25] =1
+    gridCopy[9][30] =1
+
+    gridCopy[10][18] =1
+    gridCopy[10][23] =1
+    gridCopy[10][25] =1
+    gridCopy[10][30] =1
+
+    gridCopy[11][20] =1
+    gridCopy[11][21] =1
+    gridCopy[11][22] =1
+    gridCopy[11][26] =1
+    gridCopy[11][27] =1
+    gridCopy[11][28] =1
+
+    gridCopy[13][20] =1
+    gridCopy[13][21] =1
+    gridCopy[13][22] =1
+    gridCopy[13][26] =1
+    gridCopy[13][27] =1
+    gridCopy[13][28] =1
+
+    gridCopy[14][18] =1
+    gridCopy[14][23] =1
+    gridCopy[14][25] =1
+    gridCopy[14][30] =1
+
+    gridCopy[15][18] =1
+    gridCopy[15][23] =1
+    gridCopy[15][25] =1
+    gridCopy[15][30] =1
+
+    gridCopy[16][18] =1
+    gridCopy[16][23] =1
+    gridCopy[16][25] =1
+    gridCopy[16][30] =1
+
+    gridCopy[18][20] =1
+    gridCopy[18][21] =1
+    gridCopy[18][22] =1
+    gridCopy[18][26] =1
+    gridCopy[18][27] =1
+    gridCopy[18][28] =1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    this.setState({
+      gridFull: gridCopy,
+      generation: 0
+    })
+    this.pauseButton();
+}
 
   render() {
     return (
