@@ -44,6 +44,7 @@ h1,
 h2,
 h3,
 h4 {
+
   color: white;
   margin: auto;
   text-align: center;
@@ -56,7 +57,8 @@ h4 {
 }
 
 p {
-  padding: 25px;
+  margin: 25px;
+  padding: 35px;
 }
 
 .about {
@@ -72,14 +74,14 @@ p {
   width: 40%;
   border: rgb(120,69,128) 5px solid;
   box-shadow: 0px 0px 5px  rgb(224, 221, 19);
-  border-radius: 10px 100px 100px 10px;
+  border-radius: 100px 10px 10px 100px;
 }
 
 .information {
   width: 55%;
   border: rgb(120,69,128) 5px solid;
   box-shadow: 0px 0px 5px rgb(224, 221, 19);
-  border-radius: 100px 10px 10px 100px;
+  border-radius: 10px 100px 100px 10px;
   padding: 0 10px;
 }
 
