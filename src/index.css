@@ -15,6 +15,7 @@ body {
 
 .off {
   background-color: rgb(64,145,214);
+  opacity: 0.7;
 }
 
 .on {
