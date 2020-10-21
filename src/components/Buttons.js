@@ -41,17 +41,23 @@ class Buttons extends React.Component {
           <img src="https://img.icons8.com/doodle/48/000000/shuffle.png" alt="Random"/>
           </Button>
          
-          <DropdownButton 
-            
+          <DropdownButton
+           
             variant="outline-light"
             size="sm"
             title="Grid Size"
             id=" dropdown-basic-button"
+            background-color="white"
             onSelect={this.handleSelect}
+            
           >
-            <DropdownItem>50x50</DropdownItem>
-            <DropdownItem eventKey="1">75x75</DropdownItem>
+            <div className="dpItem">
+            <DropdownItem className="drop">50X50</DropdownItem>
+            {/* <br/> */}
+            <DropdownItem className="drop" eventKey="1">75X75</DropdownItem>
+            </div>
           </DropdownButton>
+
         </ButtonToolbar>
       </div>
     );

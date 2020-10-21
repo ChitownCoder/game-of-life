@@ -10,7 +10,7 @@ class Box extends React.Component {
 			<div
 				className={this.props.boxClass}
 				id={this.props.id}
-				onclick={this.selectBox}
+				onClick={this.selectBox}
 			></div>
 		);
 	}
