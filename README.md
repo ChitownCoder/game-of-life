@@ -18,18 +18,6 @@ The Game of life is not your typical computer game. It is a 'Cellular Automaton'
             <li>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</li>
           </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## pull request  https://github.com/ChitownCoder/game-of-life/pull/1
 
 ## this is my deployed project     https://game-of-life-iota-eight.vercel.app/
